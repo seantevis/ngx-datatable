@@ -110,7 +110,7 @@ import { BehaviorSubject, Subscription } from 'rxjs';
   encapsulation: ViewEncapsulation.None,
   styleUrls: ['./datatable.component.scss'],
   host: {
-    class: 'ngx-datatable'
+    class: 'epiq-table'
   }
 })
 export class DatatableComponent implements OnInit, DoCheck, AfterViewInit {
